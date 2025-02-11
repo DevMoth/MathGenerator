@@ -1,0 +1,7 @@
+oper_count: 1 3
+num_range: 1 10
+allowed_opers: + -
+brace_count: 1 2
+max_brace_depth: 1
+max_brace_opers: 2
+allow_negative: 0
