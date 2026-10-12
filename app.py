@@ -108,7 +108,7 @@ for i in range(rounds):
             print("Неправильно...")
             errors[i] += 1
 # Error statistic (error count per round + total error count)
-print("Молодец, ты все решил, количесвто ошибок по вопросам:")
+print("Молодец, ты все решил, количество ошибок по вопросам:")
 for i in range(max(errors)):
     print("".join([["  ", "0 "][a >= max(errors)-i] for a in errors]))
 print("".join([str(i+1)+" " if i < 10 else str(i+1) for i in range(rounds)]))
