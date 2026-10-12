@@ -113,3 +113,4 @@ for i in range(max(errors)):
     print("".join([["  ", "0 "][a >= max(errors)-i] for a in errors]))
 print("".join([str(i+1)+" " if i < 10 else str(i+1) for i in range(rounds)]))
 print("Всего ошибок:",sum(errors))
+input()
